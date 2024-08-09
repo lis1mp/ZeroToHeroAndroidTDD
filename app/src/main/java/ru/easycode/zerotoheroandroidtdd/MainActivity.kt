@@ -1,6 +1,5 @@
 package ru.easycode.zerotoheroandroidtdd
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -10,7 +9,6 @@ import ru.easycode.zerotoheroandroidtdd.count.Count
 class MainActivity : AppCompatActivity() {
     private val counter = Count.Base(2)
 
-    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
